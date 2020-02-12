@@ -1,19 +1,4 @@
-import React, {useState, useReducer} from 'react';
-import Progress from './components/Progress';
-import Question from './components/Question';
-import Answers from './components/Answers';
-import QuizContext from './context/QuizContext';
-
-import {
-    SET_ANSWERS,
-    SET_CURRENT_QUESTION,
-    SET_CURRENT_ANSWER,
-    SET_ERROR,
-    SET_SHOW_RESULTS,
-    RESET_QUIZ,
-} from './reducers/types.js';
-import quizReducer from './reducers/QuizReducer';
-
+import React, {useState} from 'react';
 import './App.css';
 import Quiz from './Quiz.js';
 
