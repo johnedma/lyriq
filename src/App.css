@@ -1,24 +1,16 @@
 .container {
     margin: 20px;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #ffff00, #e6e200);
-    box-shadow:  30px 30px 60px #d9d500,
-                 -30px -30px 60px #ffff00;
-    /* background-color: #282c34; */
     min-height: 100vh;
-    /* 100vh */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  /* font-size: 23px; */
-    /* color: white; */
     color: #0f1116;
     text-align: center;
     border-radius: 50px;
-background: #fffb00;
-box-shadow:  20px 20px 60px #d9d500,
-             -20px -20px 60px #ffff00;
+    background: #fffb00;
+    box-shadow:  20px 20px 60px #d9d500,
+                 -20px -20px 60px #ffff00;
 }
 
 .genres{
@@ -30,10 +22,6 @@ h1{
   border: solid .2em;
   margin: .5em;
   padding: .2em;
-  /* border-radius: 50px; */
-  /* background: linear-gradient(315deg, #e6e200, #ffff00);
-  box-shadow:  -20px -20px 40px #d9d500,
-               20px 20px 40px #ffff00; */
   overflow-wrap: break-word;
 }
 
@@ -69,26 +57,10 @@ h1{
 }
 
 .answer {
-    border: 1px solid #fff;
     font-weight:900;
-    border: solid 1px ivory;
-    color: yellow;
-    border-radius: 60px;
-    text-shadow: 2px -1px 3px black;
-    transition: ease-in-out, width 0.35s ease-in-out;
-    font-size:.9em;
-    box-shadow: 15px 15px 30px #d9d500, -15px -15px 30px #ffff00;
-    padding: 10px 50px;
-    text-transform: uppercase;
     margin-bottom: 10px;
-    /* padding: 5px 10px 5px 45px; */
-    max-width: 610px;
     text-align: left;
-    margin-top: 20px;
     position: relative;
-    /* font-size: 22px; */
-    cursor: pointer;
-    transition: ease-in-out, width 0.35s ease-in-out;
     border-radius: 60px;
     background: linear-gradient(145deg, #e6e200, #ffff00);
     box-shadow: 15px 15px 30px #d9d500, -15px -15px 30px #ffff00;
@@ -145,12 +117,6 @@ ul div{
 .results h1{
   margin: 1em;
 padding: .5em;
-/* border-radius: 50px; */
-/* background: linear-gradient(315deg, #e6e200, #ffff00); */
-/* box-shadow: -20px -20px 40px #d9d500, 20px 20px 40px #ffff00; */
-/* overflow-wrap: break-word;
-FONT-WEIGHT: 200;
-background: white; */
 font-weight: 900;
 color: black;
 }
@@ -171,7 +137,7 @@ color: black;
     color: #f27c7c;
     font-weight: 900;
     text-decoration: underline;
-    padding: 1em;
+    padding:1em;
 }
 
 .progress{
@@ -185,7 +151,6 @@ color: black;
 .letter {
     color: #4f4c4c;
     width: 30px;
-    /* position: absolute; */
     left: 0;
     text-align: center;
     height: 28px;
@@ -207,23 +172,24 @@ color: black;
 
 .btn-primary {
     color: #4f4c4c;
-    /* background-color: #ffc107; */
-    font-weight: bold;
-    background: linear-gradient(315deg, #e6e200, #ffff00);
-    box-shadow: -20px -20px 40px #d9d500, 20px 20px 40px #ffff00;
     padding: 1em;
-text-shadow: 2px -1px 3px black;
+    text-shadow: 2px -1px 3px black;
+    font-weight: bold;
+    box-shadow: 20px 20px 60px #d9d500, -20px -20px 60px #ffff00;
+    border: solid 20px;
+    border-radius: 96px;
+    background: #2196F3;
 }
 
+.question{
+  margin: 1em;
+  padding: 1em;
+}
 
-.btn-primary {
-/* color: #4f4c4c; */
-/* background-color: #ffc107; */
-font-weight: bold;
-/* background: linear-gradient(315deg, #e6e200, #ffff00); */
-/* box-shadow: -20px -20px 40px #d9d500, 20px 20px 40px #ffff00; */
-box-shadow: 20px 20px 60px #d9d500, -20px -20px 60px #ffff00;
-border: solid 20px;
-border-radius: 96px;
-background: #2196F3;
+@media (max-width: 768px){
+  .question{
+    font-size: 1.3em;
+    padding: 1em;
+    margin: .5em;
+  }
 }
