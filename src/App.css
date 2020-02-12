@@ -171,6 +171,7 @@ color: black;
     color: #f27c7c;
     font-weight: 900;
     text-decoration: underline;
+    padding: 1em;
 }
 
 .progress{
