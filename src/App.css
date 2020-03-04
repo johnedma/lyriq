@@ -115,7 +115,7 @@ ul div{
 }
 
 .results h1{
-  margin: 1em;
+  /* margin: 1em; */
 padding: .5em;
 font-weight: 900;
 color: black;
@@ -184,11 +184,12 @@ color: black;
 .question{
   margin: 1em;
   padding: 1em;
+  max-width: 750px;
 }
 
 @media (max-width: 480px){
   .question{
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 1em;
     margin: .5em;
   }

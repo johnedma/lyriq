@@ -95,12 +95,8 @@ function Quiz(props) {
         // Render a countdown
         return <span style={{
        fontWeight: `bold`,
-       // boxShadow: `20px 20px 60px #d9d500, -20px -20px 60px #ffff00`,
-       // border: `solid 20px`,
        borderRadius: `100%`,
-       // background: `#2196F3`,
        color: `#4f4c4c`,
-       // padding: `1em`,
        textShadow: `2px -1px 3px black`
      }}>Time Left: {seconds}s</span>;
       }
